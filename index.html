@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form for DPG</title>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="hello">
+            Hello
+        </div>
+        <div class="form__wrapper">
+            <div class="form__description">
+                For business enquiries please use the form below
+                <div class="form__description-required">
+                    *Required
+                </div>
+            </div>
+            
+            <form action="#" class="form">
+                <div class="form__elements">
+                    <label class="form__label">
+                        Name*
+                        <input autocomplete="off" type="text" class="input form__input" name="name">
+                    </label>
+
+                </div>
+                <div class="form__elements">
+                    <label>
+                        Company*
+                        <input autocomplete="off" type="text" class="input form__input" name="company">
+                    </label>
+                </div>
+                <div class="form__elements">
+                    <label>
+                        E-mail*
+                        <input autocomplete="off" type="text" class="input form__input" name="mail">
+                    </label>
+                </div>
+                <div class="form__elements">
+                    <label>
+                        Phone
+                        <input autocomplete="off" type="text" class="input form__input" name="phone">
+                    </label>
+                </div>
+                <div class="form__elements">
+                    <label>
+                        Subject
+                        <input autocomplete="off" type="text" class="input form__input" name="subject">
+                    </label>
+                </div>
+                <div class="form__elements">
+                    <label>
+                        Message*
+                        <textarea autocomplete="off" wrap="soft" rows="1" class="input form__textarea" name="message"></textarea>
+                    </label>
+                </div>
+                <div class="form__accept  form__elements">
+                    <div class="form__accept-checkbox-wrapper">
+                        <label class="form__accept-label">
+                            <input type="checkbox" class="form__accept-checkbox" name="checkbox">
+                        </label>
+                    </div>
+
+                    <div class="form__accept-description">
+                        I accept <a href="#" class="form__accept-link">Terms and Privacy Policy</a>
+                    </div>
+                </div>
+                <button type="submit" class="form__button form__elements">Send</button>
+            </form>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
